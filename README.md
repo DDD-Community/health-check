@@ -3,6 +3,8 @@
 
 > health check with github action
 
+<br>
+
 ### Health Check Bot
 
 > Four bots are operating through a cron-based scheduler.
@@ -12,6 +14,8 @@
 - health-check-bot-2
 - health-check-bot-3
 - health-check-bot-4
+
+<br>
 
 ### Usage
 
@@ -24,6 +28,8 @@ If you want to add a health-check, add it according to the following spec.
           'https://api.alignlab.site/api/v1/health' \
           -H 'accept: application/json'
 ```
+
+<br>
 
 ### Heads up
 
