@@ -1,3 +1,4 @@
+
 # health-check
 
 > health check with github action
@@ -23,3 +24,10 @@ If you want to add a health-check, add it according to the following spec.
           'https://api.alignlab.site/api/v1/health' \
           -H 'accept: application/json'
 ```
+
+### Heads up
+
+- If the health check fails prematurely, the entire specific bot may be terminated.
+- API requests may take timeouts.
+- Depending on the queue status of git-action, the task may be delayed.
+- Scheduling does not guarantee time.
